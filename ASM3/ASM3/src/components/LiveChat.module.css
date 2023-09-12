@@ -1,0 +1,47 @@
+.livechat {
+  width: 400px;
+  height: 400px;
+  position: fixed;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 20px;
+  padding: 20px;
+  top: 20%;
+  left: 65%;
+  z-index: 100;
+  background-color: var(--color-primary--light);
+}
+.livechatIcon {
+  position: fixed;
+  top: 88%;
+  left: 95%;
+}
+
+.customerText {
+  background-color: var(--color-primary-blue-100);
+  color: var(--color-primary--light);
+  padding: 8px;
+  text-align: right;
+  font-size: 12px;
+  max-width: 200px;
+  font-style: italic;
+}
+.adminText {
+  background-color: var(--color-primary-grey);
+  padding: 8px;
+  text-align: left;
+  font-size: 12px;
+  max-width: 200px;
+  font-style: italic;
+}
+.flexend {
+  display: flex;
+  justify-content: flex-end;
+}
+.flex {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.icon {
+  margin-right: 10px;
+}

@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+:root {
+  --color-primary--light: #fff;
+  --color-primary-blue: #377eb5;
+  --color-primary-blue-100: #48b0f7;
+  --color-primary--dark: #272224;
+  --color-primary-active: #e0b232;
+  --color-button-dark: #353535;
+  --color-button-dark-100: #777676;
+  --color-background: #f4f5f9;
+  --color-icon-primary: #aaaaaa;
+  --color-primary-grey: #e4e7ea;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+  /* padding: 2rem 0; */
+}
+
+h3 {
+  font-style: italic;
+  font-weight: 400 !important;
+}
+h4 {
+  margin-bottom: 2rem !important;
+}
+li {
+  text-decoration: none !important;
+  list-style: none;
+  padding: 4px 0;
+}
+a {
+  text-decoration: none !important;
+  color: var(--color-primary--light);
+}
+.button-dark {
+  background-color: var(--color-button-dark);
+  color: var(--color-primary--light);
+  padding: 10px;
+  border: none;
+}
+.button-light {
+  background-color: var(--color-primary--light);
+  color: var(--color-primary--dark);
+  border: var(--color-primary--dark);
+  padding: 10px;
+}
+.button-transparent {
+  background-color: transparent;
+  border: none;
+}
+.button-outline {
+  border: 1px solid var(--color-button-dark);
+}
+.inputBlock {
+  margin-bottom: 15px;
+}
+input {
+  padding: 10px;
+  border: 1px solid var(--color-button-dark-100);
+
+  /* width: 100%; */
+}
+input:focus {
+  outline: none;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+.number-input {
+  display: flex;
+  align-items: center;
+  width: 100px; /* Điều chỉnh độ rộng của ô input */
+}
+
+.number-input input[type="number"] {
+  flex: 1;
+  text-align: center;
+}
+
+/* .number-input button {
+  background-color: #ccc;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+} */
+.background {
+  background-color: var(--color-background);
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+.invalid {
+  color: red;
+  font-style: italic;
+  padding: 10px 0;
+}

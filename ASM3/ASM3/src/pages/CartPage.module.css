@@ -1,0 +1,21 @@
+.thead {
+  text-align: center;
+  background-color: var(--color-background);
+}
+
+.tbody th {
+  font-weight: 400;
+  padding: 0 10px;
+  text-align: center;
+}
+.product {
+  width: 200px;
+}
+.button-group {
+  padding: 20px 10px;
+}
+.checkout {
+  border: 1px solid var(--color-icon-primary);
+  background-color: transparent;
+  padding: 10px;
+}

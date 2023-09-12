@@ -1,0 +1,15 @@
+.banner {
+  position: relative;
+}
+.banner-image {
+  width: 100%;
+}
+.banner-content {
+  font-style: italic;
+  position: absolute;
+  top: 30%;
+  left: 20%;
+}
+.banner-content button {
+  font-style: italic;
+}

@@ -1,0 +1,12 @@
+.nav {
+  align-items: center;
+  color: var(--color-primary--dark);
+}
+.navitem a {
+  padding: 10px;
+  color: var(--color-primary--dark);
+}
+.navitem a:hover,
+.navitem a.active {
+  color: var(--color-primary-active);
+}
